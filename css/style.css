@@ -1,0 +1,19 @@
+.my-slider{
+    width: 250px;
+    height: 90px;
+    margin: auto;
+    overflow: auto;
+    padding: 10px;
+    box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.442);
+}
+body{
+    
+}
+
+.itens{
+    display: inline-block;
+    border: 1px solid rebeccapurple;
+    width: 70px;
+    height: 90px;
+    margin: 2px;
+}
