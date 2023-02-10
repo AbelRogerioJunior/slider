@@ -33,7 +33,7 @@ body{
     border-radius: 50%;
     background-color: red;
     position: fixed;
-    top: 88%;
+    top: 92%;
     left: 86%;
 }
 
@@ -120,13 +120,6 @@ body{
     margin-bottom: 10px;
 }
 
-.container-produtos{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content:center;
-    align-items: flex-start;
-}
-
 .container-prod{
     display: flex;
     flex-flow: row nowrap;
@@ -134,15 +127,29 @@ body{
     align-items: center;
     width: 100%;
     margin: auto;
-    height: 300px;
+    height: 250px;
     overflow: auto;
     margin-bottom: 10px;
 }
 
 
+.container-main .container-destaques > .container-prod > .produtos > a{
+    margin-top: 35px;
+   width: 100%;
+}
+
+
+.container-produtos{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    align-items: flex-start;
+}
+
+
 .produtos{
     border: 1px solid white;
-    width: 90px;
+    width: 100px;
     height: 200px;
     margin: 5px;
     padding: 5px;
